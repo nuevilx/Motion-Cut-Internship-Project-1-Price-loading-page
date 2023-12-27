@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.pricing-tier {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  text-align: center;
+  width: 30%;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #007BFF;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
